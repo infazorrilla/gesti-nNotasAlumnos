@@ -48,6 +48,10 @@ public class Principal {
 			
 			listaAlumno.add(alumno7);
 			
+			alumno alumno8 = new alumno("Oier","8");
+			
+			listaAlumno.add(alumno7);
+			
 		 for(int i = 0;i<listaAlumno.size();i++)
 		 {
 		 
