@@ -1,5 +1,6 @@
 package com.elorrieta;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Principal {
@@ -17,7 +18,26 @@ public class Principal {
 			String nota = sc.nextLine();
 			alumno1.setNota(nota);
 			
-			System.out.println(alumno1.getNota());
+			
+			alumno alumno2 = new alumno("Miren","4");
+			alumno alumno3 = new alumno("Unai","5");
+			alumno alumno4 = new alumno("Pedro","8");
+			alumno alumno5 = new alumno("Marta","2");
+			alumno alumno6 = new alumno("Natxo","9");
+			List<alumno> listaAlumno = new ArrayList<alumno>();
+			
+			listaAlumno.add(alumno1);
+			listaAlumno.add(alumno2);
+			listaAlumno.add(alumno3);
+			listaAlumno.add(alumno4);
+			listaAlumno.add(alumno5);
+			listaAlumno.add(alumno6);
+			
+		 for(int i = 0;i<listaAlumno.length;i++)
+		 {
+		 
+			 System.out.println("Alumno"+i + ": " + listaAlumno[i].setNombreAlumno() + " "  + listaAlumno[i].setNota());
+		 }
 	}
 
 }
