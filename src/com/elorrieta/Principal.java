@@ -27,7 +27,7 @@ public class Principal {
 
 			System.out.println(alumno1.getNota());
 			
-			System.out.println("holi");
+			System.out.println("holi, esta mal dicho");
 
 
 			
