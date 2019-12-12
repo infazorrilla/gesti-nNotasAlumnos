@@ -46,12 +46,12 @@ public class Principal {
 			listaAlumno.add(alumno6);
 			alumno alumno7 = new alumno("Asier","10");
 			
-			listAlumno.add(alumno7);
+			listaAlumno.add(alumno7);
 			
-		 for(int i = 0;i<listaAlumno.length;i++)
+		 for(int i = 0;i<listaAlumno.size();i++)
 		 {
 		 
-			 System.out.println("Alumno"+i + ": " + listaAlumno[i].setNombreAlumno() + " "  + listaAlumno[i].setNota());
+			 System.out.println("Alumno"+i + ": " + listaAlumno.get(i).getNombreAlumno() + " "  + listaAlumno.get(i).getNota());
 		 }
 
 	}
